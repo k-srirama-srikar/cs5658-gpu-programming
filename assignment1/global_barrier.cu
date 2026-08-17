@@ -82,3 +82,22 @@ int main(){
 
     return 0;
 }
+
+
+/**
+Output : 
+
+Launching kernel
+
+Block 0: before barrier
+Block 2: before barrier
+Block 3: before barrier
+Block 1: before barrier
+Block 0: after barrier
+Block 2: after barrier
+Block 3: after barrier
+Block 1: after barrier
+
+Kernel completed
+
+*/
